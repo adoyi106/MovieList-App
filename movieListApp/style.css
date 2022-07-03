@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/istockphoto-1295114854-170667a.jpg);
+    background-size: 100%;
+    font-family: sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+h1,h2{
+    font-weight: normal;
+}
+
+#wrapper {
+    background-color: #eee;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+}
+#page-banner {
+    background-image: url(/photo-1636953056323-9c09fdd74fa6.jpg);
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#page-banner h1, p {
+    width:100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#movieList {
+    margin: 30px;
+}
+#movieList ul {
+    list-style: none;
+    padding: 0;
+}
+#movieList li{
+    padding: 20px;
+    margin: 20px 10px;
+    border-left: 5px solid #ddd;
+    list-style: none;
+}
+#movieList li:hover{
+    border-color: #936193;
+}
+.delete {
+    float: right;
+    background-color: red;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.delete:hover{
+    border-color: maroon;
+}
+#addMovies {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#addMovies input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 4px 0 0 4px ;
+} 
+#addMovies button{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100px;
+    font-size: 16px;
+    margin: 20px 0;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
